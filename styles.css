@@ -771,6 +771,9 @@ ul li a:hover .name span {
 
 /* Testimonial Section */
 
+.testimonial_wrap{
+  overflow: hidden;
+}
 .testimonial_wrap .container_a {
   max-width: 1180px;
   margin: 0 auto;
