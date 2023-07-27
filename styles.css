@@ -771,16 +771,18 @@ ul li a:hover .name span {
 
 /* Testimonial Section */
 
+
+
 .container_a{
   width: 100%;
   height: 100vh;
-  background: #0c0d3a;
+  background: #020626;
   position: relative;
 }
 .view-box{
-  width: 900px;
-  height: 400px;
-  border-radius: 220px;
+  width: 800px;
+  height: 440px;
+  border-radius: 120px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -809,7 +811,7 @@ ul li a:hover .name span {
   margin: 0 70px;
 }
 .user img{
-  width: 120px;
+  width: 100px;
   border-radius: 50%;
   border: 10px solid #0c0d3a;
   position: absolute;
@@ -822,22 +824,6 @@ ul li a:hover .name span {
   color: #0c0d3a;
   line-height: 32px;
   margin: 60px 0 30px;
-}
-.user p::before{
-  content: '\201C';
-  font-size: 120px;
-  height: 0;
-  display: inline-block;
-  vertical-align: -57;
-  margin-right: 10px;
-}
-.user p::after{
-  content: '\201D';
-  font-size: 120px;
-  height: 0;
-  display: inline-block;
-  vertical-align: -70;
-  margin-left: 10px;
 }
 .user h3{
   font-size: 26px;
