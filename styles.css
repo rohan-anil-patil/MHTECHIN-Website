@@ -1,7 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Poppins&display=swap");
-
-/* Main styles */
-
 html,
 body {
   font-family: sans-serif;
@@ -343,7 +339,7 @@ ul li a:hover .name span {
   margin-top: 20px;
   margin-left: 150px;
   height: 1650px;
-  overflow-x: hidden;
+  overflow-x:hidden;
 }
 .container1 {
   padding: 10px 50px;
@@ -360,7 +356,7 @@ ul li a:hover .name span {
   font-size: 15px;
 }
 .left-container1 {
-  right: 0%;
+  left: 0.5%;
 }
 .right-container1 {
   left: 46.5%;
@@ -476,12 +472,14 @@ ul li a:hover .name span {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 400px){
   .timeline {
     margin-top: 2px;
-    margin-left: auto;
-    margin-bottom: auto;
-    overflow-x: hidden;
+    margin-left: 2px;
+    margin-bottom:2px;
+    margin-right: 2px;
+
+    overflow-x:hidden;
     height: auto;
   }
   .timeline::after {
@@ -493,9 +491,9 @@ ul li a:hover .name span {
     padding-right: 25px;
   }
   .vl {
-    height: 700px;
-    margin-top: -790px;
-    left: 10%;
+    height: 870px;
+    margin-top: -910px;
+    left: 11%;
   }
   .test2.in-view {
     animation: moveline 7s linear forwards;
@@ -505,7 +503,7 @@ ul li a:hover .name span {
       height: 0px;
     }
     100% {
-      height: 700px;
+      height: 870px;
     }
   }
   .text-box {
@@ -526,13 +524,59 @@ ul li a:hover .name span {
     left: -15px;
   }
 }
-@media only screen and (width: 540px) {
-  .vl {
-    height: 700px;
-    margin-top: -790px;
-    left: 6%;
+@media screen and (min-width: 400px) and (max-width: 600px){
+  .timeline {
+    margin: 2px;
+   
+
+    overflow-x:hidden;
+    height: auto;
   }
+  .timeline::after {
+    left: 31px;
+  }
+  .container1 {
+    width: 75%;
+    padding-left: 80px;
+    padding-right: 25px;
+  }
+  .vl {
+    height: 870px;
+    margin-top: -910px;
+    left: 8%;
+  }
+  .test2.in-view {
+    animation: moveline 7s linear forwards;
+  }
+  @keyframes moveline {
+    0% {
+      height: 0px;
+    }
+    100% {
+      height: 870px;
+    }
+  }
+  .text-box {
+    padding: 2px 3px;
+    font-size: 10px;
+  }
+  .right-container1 {
+    left: 0;
+  }
+  .left-container1 img,
+  .right-container1 img {
+    left: 10px;
+  }
+  .left-container1-arrow,
+  .right-container1-arrow {
+    border-right: 15px solid #fff;
+    border-left: 0;
+    left: -15px;
+  
+  }
+
 }
+
 /* =====tech section== */
 .techno {
   overflow: hidden;
