@@ -760,6 +760,10 @@ ul li a:hover .name span {
 }
 
 @media screen and (max-width: 600px) and (min-width: 200px) {
+  .techs{
+    margin-top: 40%;
+    
+  }
   .container_r {
     transform-origin: 175px;
   }
@@ -783,6 +787,9 @@ ul li a:hover .name span {
     border-left: 2px solid #ffa500;
     border-right: 2px solid #fff;
     border-radius: 50%;
+  }
+  .techno{
+    margin-top: 50px;
   }
 }
 @media only screen and (width: 412px) {
