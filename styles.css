@@ -291,8 +291,9 @@ ul li a:hover .name span {
 
   /* Company Info section */
   .company-info {
+    width: 80%;
     top: 15%;
-    left: 40%;
+    left: 50%;
     transform: translate(-50%, 0);
     text-align: left;
   }
