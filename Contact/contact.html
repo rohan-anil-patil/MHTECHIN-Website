@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Page</title>
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="./Images/logo.jpeg" alt="Logo" />
+      </div>
+      <div class="menu-toggle">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+      <ul>
+        <li>
+          <a href="../index.html">
+            <div class="icon">
+              <i class="fa fa-solid fa-house" aria-hidden="true"></i>
+              <i class="fa fa-solid fa-house" aria-hidden="true"></i>
+            </div>
+            <div class="name"><span data-text="Home">Home</span></div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="icon">
+              <i class="fa fa-file-text" aria-hidden="true"></i>
+              <i class="fa fa-file-text" aria-hidden="true"></i>
+            </div>
+            <div class="name"><span data-text="About">About</span></div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="icon">
+              <i class="fa fa-cogs" aria-hidden="true"></i>
+              <i class="fa fa-cogs" aria-hidden="true"></i>
+            </div>
+            <div class="name">
+              <span data-text="Services">Services</span>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="icon">
+              <i class="fa fa-solid fa-book"></i>
+              <i class="fa fa-solid fa-book"></i>
+            </div>
+            <div class="name"><span data-text="Coures">Coures</span></div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="icon">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+            <div class="name"><span data-text="Contact">Contact</span></div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+  <!-- ----------------Contact Section--------------- -->
+  <h1>Contact Us</h1>
+  <div class="container-m">
+    <div class="location-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.282322116519!2d75.34329630918981!3d19.870297181427606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb992d84a5468d%3A0x9406c314e3c3600e!2sMHTECHIN!5e0!3m2!1sen!2sin!4v1690302622167!5m2!1sen!2sin"
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="item">
+      <div class="contact">
+        <!-- <div class="first-text"> Lets get in touch </div> -->
+        <!-- <img src="./Images/dev-removebg-preview.png " alt="" class="image"> -->
+        <img class="image" src="./Images/undraw-contact.svg" alt="">
+
+        <div class="social-links">
+          <span class="second-text">Connect with us:</span>
+          <ul class="social-media">
+
+
+            <li><a href="#"><i class="fa bi-facebook"></i></a></li>
+            <li><a href="#"><i class="fa bi-instagram"></i></a></li>
+            <li><a href="#"><i class="fa bi-youtube"></i></a></li>
+            <li><a href="#"><i class="fa bi-linkedin"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="contacts">
+
+          <div class="info">
+            <span><i class="bi bi-geo-alt"></i></span>
+            <p> MHTECHIN, Trimurti Chawk, Jawahar Colony Rd,<br> Jawahar Colony, Nyay Nagar, Aurangabad, Maharashtra
+              431001</p>
+          </div>
+          <div class="info">
+            <span><i class="bi bi-envelope"></i></span>
+            <a href="mailto:hr@mhtechin.in">hr@mhtechin.in</a>
+          </div>
+          <div class="info">
+            <span><i class="bi bi-telephone"></i></span>
+            <a href="tel:+91-1234567890">+91-1234567890</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="submit-form">
+        <h4 class="third-text text">Contact Here</h4>
+        <form action="">
+          <div class="input-box">
+            <input type="text" class="input" required>
+            <label for=""> Name</label>
+          </div>
+
+          <div class="input-box">
+            <input id="email" type="email" class="input" autocomplete="off" required>
+            <label for="">Email</label>
+          </div>
+          <div class="input-box">
+            <input type="tel" class="input" required>
+            <label for="">Phone</label>
+          </div>
+
+          <div class="input-box">
+            <textarea name="" class="input" cols="30" rows="10" min="5"></textarea>
+            <label for="">Message</label>
+          </div>
+          <input class="btn" type="submit" value="Submit" ondblclick="send()">
+        </form>
+      </div>
+    </div>
+
+
+
+
+  </div>
+  </div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/textfit/2.4.0/textFit.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+
+</html>
