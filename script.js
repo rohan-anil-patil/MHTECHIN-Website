@@ -96,3 +96,4 @@ for (let i = 0; i < imgBx.length; i++) {
     this.className = "imgBx active";
   });
 }
+
