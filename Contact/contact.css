@@ -483,6 +483,7 @@
   }
 
   header {
+    width: 100%;
     margin: 0;
     height: 100px;
     overflow: hidden;
@@ -585,12 +586,11 @@
   }
 
   @media screen and (max-width: 768px) {
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    .cnt{
+      width: 100%;
+      overflow-x: hidden;
     }
+
   .container-m{
     width: 100%;
   }
