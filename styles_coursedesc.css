@@ -1,0 +1,180 @@
+html,
+body {
+  font-family: sans-serif;
+  margin: 0;
+  height: 100%;
+  background-color: #020626;
+}
+
+/* ===Navbar section=== */
+header {
+  margin: 0;
+  /* height: 100%; */
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+ul {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.logo img {
+  height: 60px;
+}
+
+ul li {
+  text-align: center;
+}
+
+ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+}
+
+ul li a .icon {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto 5px;
+}
+
+ul li a .icon .fa {
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  font-size: 24px;
+  transition: 0.5s;
+  color: #fff;
+}
+
+ul li a:hover .icon .fa:last-child {
+  color: #ffa500;
+}
+
+ul li a:hover .icon .fa {
+  transform: translateY(-100%);
+}
+
+ul li a .name {
+  position: relative;
+  height: 20px;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+ul li a .name span {
+  display: block;
+  position: relative;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  transition: 0.5s;
+}
+
+ul li a .name span::before {
+  content: attr(data-text);
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  color: #ffa500;
+}
+
+ul li a:hover .name span {
+  transform: translateY(20px);
+}
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-toggle i {
+  color: #fff;
+  font-size: 24px;
+}
+
+/* ===Course Title section=== */
+.course-title {
+  /* padding: 20px 30px; */
+  background: #868686;
+  position: relative;
+  /* font-size: 20px; */
+}
+
+.course-title-text {
+  padding: 20px 60px;
+  background: #868686;
+  position: relative;
+  font-size: 20px;
+  max-width: 65%;
+}
+
+.floating-rectangle {
+  position: fixed;
+  top: 25%; 
+  left: 70%; 
+  width: 300px;
+  height: 60%;
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.floating-rectangle img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.price-tag-container {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  gap: 10px;
+  align-items: center;
+}
+
+.button {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #ffa500;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: 3px solid #ffa500;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button + .button {
+  margin-top: 10px; /* You can adjust the value as needed */
+}
+
+/* ===Course Desc section=== */
+.course-desc {
+  padding: 20px 60px;
+  position: relative;
+  font-size: 15px;
+  color: #fff;
+  max-width: 60%;
+}
