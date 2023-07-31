@@ -111,10 +111,8 @@ ul li a:hover .name span {
 
 /* ===Course Title section=== */
 .course-title {
-  /* padding: 20px 30px; */
   background: #868686;
   position: relative;
-  /* font-size: 20px; */
 }
 
 .course-title-text {
@@ -136,6 +134,8 @@ ul li a:hover .name span {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
+  font-size: 15px;
+  z-index: 2;
 }
 
 .floating-rectangle img {
@@ -177,4 +177,30 @@ ul li a:hover .name span {
   font-size: 15px;
   color: #fff;
   max-width: 60%;
+}
+
+/* ===Mobile Only Settings=== */
+@media screen and (max-width: 768px) {
+  body {
+    /* Set flex-direction to column to stack the elements vertically on mobile */
+    flex-direction: column;
+  }
+
+  .floating-rectangle {
+    position: relative;
+    left: 5%;
+    width: 85%;
+    order: 0;
+    transform: translateY(3%);
+  }
+
+  .course-desc {
+    max-width: 90%;
+    padding: 20px 20px;
+  }
+
+  .course-title-text {
+    max-width: 90%;
+    padding: 20px 20px;
+  }
 }
