@@ -160,6 +160,7 @@ ul li a:hover .name span {
     height: 100vh;
     overflow: hidden;
     margin-bottom: 80px;
+    background-color: #020626;
   }
   
   .hero-slide {

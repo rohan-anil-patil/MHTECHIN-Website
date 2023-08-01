@@ -27,3 +27,17 @@ var swiperc= new Swiper(".slide-container", {
         },
     },
   });
+  // ===Navbar section===
+document.querySelector(".menu-toggle").addEventListener("click", function () {
+  document.querySelector("nav ul").classList.toggle("menu-open");
+});
+
+const slides = document.querySelectorAll(".hero-slide");
+let currentSlide = 0;
+const slideInterval = setInterval(nextSlide, 5000); // Change slide every 5 seconds
+
+function nextSlide() {
+  slides[currentSlide].classList.remove("active");
+  currentSlide = (currentSlide + 1) % slides.length;
+  slides[currentSlide].classList.add("active");
+}
