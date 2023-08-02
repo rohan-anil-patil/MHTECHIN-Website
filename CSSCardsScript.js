@@ -1,4 +1,4 @@
-var swiper = new Swiper('.blog-slider', {
+var blog_swiper = new Swiper('.blog-slider', {
       spaceBetween: 30,
       effect: 'fade',
       loop: true,

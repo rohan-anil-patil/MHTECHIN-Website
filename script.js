@@ -6,7 +6,7 @@ document.querySelector(".menu-toggle").addEventListener("click", function () {
   Swiper:
   https://swiperjs.com/
 **/
-const swiper = new Swiper(".swiperCarousel", {
+const swiper1 = new Swiper(".swiperCarousel", {
   slidesPerView: 3,
   centeredSlides: true,
   spaceBetween: 10,
