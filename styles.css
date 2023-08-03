@@ -1124,7 +1124,7 @@ ul li a:hover .name span {
 }
 @media screen and (max-width: 576px) {
   .blog-slider__button {
-    width: 100%;
+    width: 80%;
  }
 }
 .blog-slider .swiper-container-horizontal > .swiper-pagination-bullets, .blog-slider .swiper-pagination-custom, .blog-slider .swiper-pagination-fraction {
