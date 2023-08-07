@@ -234,7 +234,14 @@ ul li a:hover .name span {
   display: flex !important;
   justify-content: center;
   align-items: center;
+  /* width: 100%; */
 }
+
+/* @media screen and (max-width: 412) and (max-width: 280) {
+  .swiper-slide {
+    width: 100%;
+  }
+} */
 
 .swiper-slide-active {
   z-index: 1;
@@ -581,14 +588,32 @@ ul li a:hover .name span {
 /* =====tech section== */
 .techno {
   overflow: hidden;
-  min-height: 100vh;
-  justify-content: center;
-}
-.techs {
+  min-height: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 400px){
+  .techno {
+    min-height: 100%;
+  }
+
+  .techs {
+    margin-top: 0%;
+  }
+}
+
+.techs {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.techs .timetxt h1 {
+  margin-bottom: 15%;
+}
+
 .container_r {
   position: relative;
   width: 80vw;
@@ -598,6 +623,9 @@ ul li a:hover .name span {
   border: 2px solid #fff;
   border-radius: 50%;
   transform-origin: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container_r .icons {
@@ -761,7 +789,7 @@ ul li a:hover .name span {
 
 @media screen and (max-width: 600px) and (min-width: 200px) {
   .techs{
-    margin-top: 40%;
+    /* margin-top: 40%; */
     
   }
   .container_r {
@@ -790,6 +818,21 @@ ul li a:hover .name span {
   }
   .techno{
     margin-top: 50px;
+  }
+}
+@media screen and (max-width: 912px){
+  .techno {
+    min-height: 60%;
+  }
+}
+@media screen and (max-width: 540px){
+  .techno {
+    min-height: 100%;
+  }
+}
+@media screen and (max-width: 1280px){
+  .techno {
+    min-height: 100%;
   }
 }
 @media only screen and (width: 412px) {
@@ -933,6 +976,10 @@ ul li a:hover .name span {
 }
 
 /* CSS Cards Merge */
+.CSSCards .timetxt h1{
+  margin: 10px;
+}
+
 .blog-slider {
   width: 90%;
   position: relative;
@@ -944,13 +991,15 @@ ul li a:hover .name span {
   border-radius: 25px;
   height: 400px;
   transition: all 0.3s;
-  margin-top: 40px;
+  margin-top: 40%;
   margin-bottom: 60px;
 }
+
 @media screen and (max-width: 992px) {
   .blog-slider {
     width: 80%;
     height: auto;
+    margin-top: 15%;
  }
 }
 @media screen and (max-width: 768px) {
@@ -962,11 +1011,25 @@ ul li a:hover .name span {
     margin-bottom: 180px auto;
  }
 }
+
 @media screen and (max-height: 500px) and (min-width: 992px) {
   .blog-slider {
     height: 350px;
  }
 }
+
+@media screen and (max-width: 440px) {
+  .blog-slider {
+    margin-top: 40%;
+ }
+}
+
+@media screen and (max-width: 1280px) {
+  .blog-slider {
+    margin-top: 10%;
+ }
+}
+
 .blog-slider__item {
   display: flex;
   align-items: center;
@@ -975,7 +1038,24 @@ ul li a:hover .name span {
   .blog-slider__item {
     flex-direction: column;
  }
+  .blog-slider {
+    margin-top: 20%;
+  }
 }
+
+@media screen and (max-width: 540px) {
+  .blog-slider {
+    margin-top: 40%;
+ }
+}
+
+@media screen and (max-width: 280px) {
+  .blog-slider {
+    margin-top: 60%;
+    width: 70%;
+ }
+}
+
 .blog-slider__item.swiper-slide-active .blog-slider__img img {
   opacity: 1;
   transition-delay: 0.3s;
@@ -1129,6 +1209,11 @@ ul li a:hover .name span {
 @media screen and (max-width: 576px) {
   .blog-slider__button {
     width: 80%;
+ }
+}
+@media screen and (max-width: 280px) {
+  .blog-slider__button {
+    width: 60%;
  }
 }
 .blog-slider .swiper-container-horizontal > .swiper-pagination-bullets, .blog-slider .swiper-pagination-custom, .blog-slider .swiper-pagination-fraction {
