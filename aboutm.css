@@ -178,7 +178,7 @@ ul li a:hover .name span {
     display: flex;
 }
 .about{
-    background:url(/images/about1.jpg) no-repeat left;
+    background:url(/MHTECHIN-Website/images/about1.jpg) no-repeat left;
     background-size: 60%;
     background-color:#0f1749;
     overflow: hidden;
