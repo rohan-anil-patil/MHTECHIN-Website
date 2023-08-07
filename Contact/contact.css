@@ -27,7 +27,10 @@
     align-items: center;
 
   }
-
+  .third-text
+  {
+    margin-bottom: 30px;
+  }
   .item {
     width: 100%;
     height: 550px;
@@ -48,8 +51,10 @@
 
   }
 
-  .submit-form {
+  .submit-form_m {
     background-color: skyblue;
+    display: flex;
+    flex-direction: column;
     
   }
 
@@ -117,15 +122,17 @@
 
   form {
     padding: 0 50px;
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
   }
 
-  .input-box {
+  .input-box-c {
     height: 40px;
     width: 70%;
-    margin: 30px 0;
+    margin: 20px 0;
     position: relative;
   }
 
@@ -153,7 +160,7 @@
 
   }
 
-  .input-box label {
+  .input-box-c label {
     position: absolute;
     top: 50%;
     left: 10px;
@@ -164,8 +171,8 @@
     color: #fff;
   }
 
-  .input-box .input:focus~label,
-  .input-box .input:valid~label {
+  .input-box-c .input:focus~label,
+  .input-box-c .input:valid~label {
     top: -1px;
     left: 10px;
     background: skyblue;
@@ -245,8 +252,12 @@
     .second-text {
       font-size: 12px;
 
-    }
 
+    }
+    .input-box-c
+    {
+      margin-bottom: 2px;
+    }
     .image {
       width: 70px;
       height: 70px;
@@ -269,18 +280,18 @@
     }
 
 
-    .input-box input {
+    .input-box-c input {
       color: #000;
       font-weight: 600;
       font-size: 12px;
       padding: 5px;
     }
 
-    .input-box textarea {
+    .input-box-c textarea {
       color: #000;
       font-weight: 600;
       font-size: 10px;
-      padding: 5px;
+      padding-top: 10px;
       height: 40px;
       overflow: auto;
     }
@@ -303,14 +314,14 @@
       margin-top: 10px;
     }
 
-    .input-box {
-      height: 20px;
+    .input-box-c {
+      height: 25px;
       width: 70%;
-      margin: 30px 0;
+      margin: 15px 0;
       position: relative;
       padding: 0 5px;
     }
-
+  
     .location {
       position: fixed;
       bottom: 0;
@@ -599,10 +610,11 @@
     height: 100%;
     margin-bottom: 20px;
   }
-  .submit-form
+  .submit-form_m
   {
     height: 1000px;
     margin-bottom: 20px;
+
   }
 
     h1 {
@@ -686,7 +698,7 @@
     }
 
 
-    .input-box {
+    .input-box-c {
       height: 40px;
       width: 70%;
       margin-left: 40px;
@@ -861,27 +873,27 @@
     font-weight: bold;
   }
   
-  form {
+  /* form {
     padding-bottom: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #000;
     margin-bottom: 50px;
-  }
+  } */
   
   form .fa-regular {
     font-size: 18px;
     margin-right: 10px;
   }
-  
+/*   
   form input {
     width: 100%;
     background: transparent;
     color: #ccc;
     border: 0;
     outline: none;
-  }
+  } */
   .email-id
   {
     text-decoration: none;
