@@ -588,7 +588,7 @@ ul li a:hover .name span {
 /* =====tech section== */
 .techno {
   overflow: hidden;
-  min-height: 120%;
+  min-height: 125%;
   display: flex;
   align-items: center;
   justify-content: center;
