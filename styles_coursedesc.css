@@ -109,18 +109,22 @@ ul li a:hover .name span {
   font-size: 24px;
 }
 
+
 /* ===Course Title section=== */
 .course-title {
-  background: #868686;
+  background: #313e89;
   position: relative;
+  color: #fff;
+  border-radius: 100px;
 }
 
 .course-title-text {
   padding: 20px 60px;
-  background: #868686;
+  /*background: #868686;*/
   position: relative;
   font-size: 20px;
   max-width: 65%;
+  
 }
 
 .floating-rectangle {
@@ -128,8 +132,8 @@ ul li a:hover .name span {
   top: 25%; 
   left: 70%; 
   width: 300px;
-  height: 60%;
-  background-color: lightgray;
+  height: 40%;
+  background-color: black;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -171,12 +175,12 @@ ul li a:hover .name span {
   display: inline-block;
   width: 100%;
   padding: 10px 20px;
-  background-color: #ffa500;
-  color: #fff;
+ /* background-color: #ffa500;*/
+ /* color: #fff;*/
   font-size: 18px;
   font-weight: bold;
-  border: 3px solid #ffa500;
-  border-radius: 5px;
+  border: 3px solid #132f95;
+  border-radius: 100px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
@@ -237,7 +241,7 @@ footer {
   height: 500px;
   overflow: hidden;
   overflow-x: hidden;
-  border-radius:20px;
+  
 }
 .supports
 {
