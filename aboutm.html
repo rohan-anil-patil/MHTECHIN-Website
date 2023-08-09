@@ -31,8 +31,10 @@
           <a href="/index.html">
           <div class="icon">
                       
-          <i class="fa fa-solid fa-house-chimney"></i>
-          <i class="fa fa-solid fa-house-chimney"></i>
+          <!-- <i class="fa fa-solid fa-house-chimney"></i> -->
+          <i class="fa fa-home" aria-hidden="true"></i>
+
+          <!-- <i class="fa fa-solid fa-house-chimney"></i> -->
           </div>
               <div class="name"><span data-text="Home">Home</span></div>
             </a>
@@ -41,7 +43,9 @@
             <a href="/aboutm.html">
             <div class="icon">
              <i class="fa fa-file-text" aria-hidden="true"></i>
-             <i class="fa fa-file-text" aria-hidden="true"></i>
+             <!-- <i class="fa fa-file-text" aria-hidden="true"></i> -->
+
+             <!-- <i class="fa fa-file-text" aria-hidden="true"></i> -->
             </div>
             <div class="name"><span data-text="About">About</span></div>
             </a>
@@ -240,6 +244,11 @@
         });
     });
 
+
+    // ===Navbar section===
+document.querySelector(".menu-toggle").addEventListener("click", function () {
+  document.querySelector("nav ul").classList.toggle("menu-open");
+});
     </script>
 
 </section>
