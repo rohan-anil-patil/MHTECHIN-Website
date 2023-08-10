@@ -177,10 +177,13 @@ ul li a:hover .name span {
 
 /* ===Course Title section=== */
 .course-title {
-  background: #313e89;
+  /* background: #313e89; */
+  background: linear-gradient(147deg, #cfc8ff 0%, #7038fd 74%);
+  border-top: 3px solid #d0daff;
+  border-bottom: 3px solid #d0daff;;
   position: relative;
   color: #fff;
-  border-radius: 100px;
+  /* border-radius: 100px; */
 }
 
 .course-title-text {
@@ -197,7 +200,7 @@ ul li a:hover .name span {
   top: 25%; 
   left: 70%; 
   width: 300px;
-  height: 40%;
+  height: 60%;
   background-color: black;
   padding: 10px;
   border-radius: 5px;
@@ -241,11 +244,12 @@ ul li a:hover .name span {
   width: 100%;
   padding: 10px 20px;
  /* background-color: #ffa500;*/
- /* color: #fff;*/
+  color: #fff;
   font-size: 18px;
   font-weight: bold;
-  border: 3px solid #132f95;
-  border-radius: 100px;
+  border: 3px solid #d0daff;
+  border-radius: 10px;
+  background: linear-gradient(147deg, #cfc8ff 0%, #7038fd 74%);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
