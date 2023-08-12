@@ -123,7 +123,10 @@ ul li a:hover .name span {
 }
   /*nav bar*/
 @media screen and (max-width: 768px) {
-  
+   nav
+  {
+    width: 100%;
+  }
   nav ul {
     display: none;
     flex-direction: column;
