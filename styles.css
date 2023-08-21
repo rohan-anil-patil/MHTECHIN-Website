@@ -584,6 +584,13 @@ ul li a:hover .name span {
   }
 
 }
+.projects h1
+{
+ text-align: center;
+ color: #fff;
+ font-size: 40px;
+ text-transform: uppercase;
+}
 
 /* =====tech section== */
 .techno {
@@ -1010,6 +1017,7 @@ ul li a:hover .name span {
     margin-top: 180px auto;
     margin-bottom: 180px auto;
  }
+
 }
 
 @media screen and (max-height: 500px) and (min-width: 992px) {
@@ -1145,6 +1153,19 @@ ul li a:hover .name span {
     transform: translateY(-50%);
     width: 90%;
  }
+
+ .projects h1
+ {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+ }
+  .projects
+  {
+    position: relative;
+    margin-bottom: 160px;
+  }
 }
 @media screen and (max-width: 576px) {
   .blog-slider__img {
